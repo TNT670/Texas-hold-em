@@ -1,8 +1,31 @@
 # Texas-hold-em
 
-Java application that hosts and plays a game of Texas hold em!
+Java application that hosts and plays a game of Texas hold 'em! (With animations!)
 
-## Dependencies
+![sample poker image 1](https://github.com/TNT670/Texas-hold-em/sample_images/sample-1.PNG)
+
+![sample poker image 2](https://github.com/TNT670/Texas-hold-em/sample_images/sample-2.PNG)
+
+![sample poker image 4](https://github.com/TNT670/Texas-hold-em/sample_images/sample-4.PNG)
+
+As Player 1, strategize and bet your way to the top of the table!
+
+## TODOs: a work in progress!
+
+As of now the core game logic should be sound, but some bugs may persist, especially with displaying and distributing pot prizes.
+
+A (non-exhaustive) list of additions I would like to accomplish:
+
+1. Resolve display issues with multiple side pots
+2. Add a window title (easy, I know, but I'll get there!)
+3. Add a title screen
+4. Add the ability to input your name
+5. Find and add images to represent increasingly larger piles of chips
+6. Add a game over screen for when you win or lose
+7. Add the ability for multiple people to play in one table (ambitious, but totally doable!)
+8. Squash any bugs that may come about
+
+## Dependencies required
 
 - Java JDK >= 1.8
 - Ant >= 1.8
