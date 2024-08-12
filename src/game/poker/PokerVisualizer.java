@@ -798,9 +798,9 @@ public class PokerVisualizer {
             try {
                 String path;
                 if (card.visible)
-                    path = "cardimages/PNG/" + card.toShortString() + ".png";
+                    path = "/PNG/" + card.toShortString() + ".png";
                 else
-                    path = "cardimages/PNG/blue_back.png";
+                    path = "/PNG/blue_back.png";
                 BufferedImage image = ImageIO.read(new File(path));
                 width = image.getWidth();
                 height = image.getHeight();
