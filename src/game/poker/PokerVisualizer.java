@@ -959,6 +959,7 @@ public class PokerVisualizer {
      * Class that manages {@code PokerEvent}s and updates the GUI accordingly.
      **/
     private class PokerEventManager implements PokerEventListener {
+        @SuppressWarnings("unchecked")
         @Override
         public void processEvent(PokerEvent ev) {
             Class<?> cl = ev.getClass();
